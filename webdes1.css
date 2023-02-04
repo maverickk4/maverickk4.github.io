@@ -1,6 +1,7 @@
 body {
   background-image: url(pexels.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -47,12 +48,13 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
+  
 }
 
 section {
   justify-content: space-between;
-  background-color: #FFFFFF;
+  background-color: rgba(171, 228, 255, 0.7);
   color: #333;
   font-size: 18px;
   padding: 20px;
@@ -83,13 +85,15 @@ section#about-this-website p {
   cursor: pointer;
 }
 footer {
-  background-color: #333;
-  color: #FFFFFF;
+  background-color: #00B0FF;
+  color: #000000;
   font-size: 14px;
   padding: 20px;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
