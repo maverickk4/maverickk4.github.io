@@ -1,5 +1,5 @@
 body {
-  background-image: url(bg.jpg);
+  background-image: url(pexels.jpg);
   background-size: cover;
 }
 
@@ -51,26 +51,37 @@ main {
 }
 
 section {
+  justify-content: space-between;
   background-color: #FFFFFF;
   color: #333;
   font-size: 18px;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 2px 2px #00B0FF;
+  box-shadow: 5px 5px #00B0FF;
   margin-bottom: 20px;
   width: 30%;
   position: relative;
   overflow: hidden;
 }
 
-section h2 {
-  transform: rotate(-5deg);
-}
-
-section p {
+section#bio h2,
+section#bio p {
   transform: rotate(5deg);
 }
 
+section#project-ideas h2,
+section#project-ideas p {
+  transform: rotate(-5deg);
+}
+
+section#about-this-website h2,
+section#about-this-website p {
+  transform: rotate(5deg);
+}
+
+#bio, #project-ideas, #about-this-website {
+  cursor: pointer;
+}
 footer {
   background-color: #333;
   color: #FFFFFF;
