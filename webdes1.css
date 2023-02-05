@@ -1,7 +1,9 @@
 body {
-  background-image: url(pexels.jpg);
-  background-size: cover;
-  background-position: center;
+  background: 
+    url(pexels.jpg) top left/50% 50% no-repeat,
+    url(pexels2.jpg) bottom left/50% 50% no-repeat,
+    url(pexels3.jpg) top right/50% 50% no-repeat,
+    url(pexels4.jpg) bottom right/50% 50% no-repeat;
 }
 
 header {
@@ -56,14 +58,17 @@ section {
   justify-content: space-between;
   background-color: rgba(171, 228, 255, 0.7);
   color: #333;
-  font-size: 18px;
+  font-size: 20px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px #00B0FF;
+  margin-right: 15px;
+  margin-left: 15px;
   margin-bottom: 20px;
   width: 30%;
   position: relative;
   overflow: hidden;
+  text-shadow: 1px 1px #ffffff;
 }
 
 section#bio h2,
