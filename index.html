@@ -19,16 +19,22 @@
     </header>
     <main>
       <section id="bio" onclick="window.location.href='https://maverickknowles.github.io/bio/';">
-        <h2>Bio</h2>
-        <p>Add your bio here</p>
+        <h2>Howdy!</h2>
+        <p>I'm Maverick Knowles, a recent Magna Cum Laude grad with a BSBA in Business Management. 
+          I'm fluent in Spanish and passionate about fintech and disruptive technologies. 
+          With a diverse background in academics and culture, I'm eager to share my unique perspective and drive for success. 
+          Want to learn more? Click now to find out!</p>
       </section>
       <section id="project-ideas" onclick="window.location.href='https://maverickknowles.github.io/speechCalculator/';">
         <h2>Project Ideas</h2>
-        <p>Click here to check out my first working application. This button will redirect you to a speech calculator. This app will allow you to input your speech, calculate how fast you speak, tell you how long your speech will take, or even help you to practice!</p>
+        <p> Say goodbye to monotonous presentations and hello to a world of dynamic, engaging, and impactful speeches. 
+          With a single click, you'll be transported to an innovative SpeechCalculator that calculates the speed of your delivery, 
+          predicts the duration of your speech, and even provides you with an opportunity to perfect your pacing and delivery. 
+          So why wait? Click now and unleash the full potential of your words!</p>
       </section>
-      <section id="about-this-website" onclick="window.location.href='https://maverickknowles.github.io/about-this-website/';">
+       <section id="about-this-website">
         <h2>About This Website</h2>
-        <p>With code and keys, I built this sight,
+        <p id="poem">With code and keys, I built this sight,
           And filled it with projects, both day and night.
           With ChatGPT by my side, you see,
           This website's meant to show off me!
@@ -36,15 +42,19 @@
           With ChatGPT, the possibilities aren't few.
           So check it out, and give it a try,
           With practice, you too can reach for the sky!</p>
+            <button onclick="document.getElementById('poem').innerHTML = refreshPoem();">Refresh</button>
       </section>
     </main>
     <footer>
       <p>Copyright &copy; Maverick Knowles 2023</p>
     </footer>
     <script> 
-document.addEventListener("mousemove", function(event) {
-  document.body.style.backgroundPosition = `${event.clientX * 0.025}px ${event.clientY * 0.05}px`;
-});
+      function refreshPoem() {
+        return "A creative tool, ChatGPT you see, \
+        Helped bring this website to life for me. \
+        A new verse, each time you click with glee, \
+        Is created by this AI, as smart as can be.";
+      }
 </script>
   </body>
 </html>
