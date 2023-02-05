@@ -1,10 +1,11 @@
 body {
-  background: 
-    url(pexels.jpg) top left/50% 50% no-repeat,
-    url(pexels2.jpg) bottom left/50% 50% no-repeat,
-    url(pexels3.jpg) top right/50% 50% no-repeat,
-    url(pexels4.jpg) bottom right/50% 50% no-repeat;
-}
+  background: center,
+  url(pexels.jpg) center left/cover no-repeat,
+  url(pexels2.jpg) center left/cover no-repeat,
+  url(pexels3.jpg) center right/cover no-repeat,
+  url(pexels4.jpg) center right/cover no-repeat;
+  background-size: 50%  auto;
+  }
 
 header {
   display: flex;
