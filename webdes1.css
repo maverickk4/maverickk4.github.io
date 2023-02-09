@@ -73,6 +73,7 @@ main {
   
 
 main section {
+  flex-direction: column;
   transition: all 1s ease;
   color: #000000;
 }
@@ -91,7 +92,7 @@ section {
   color: #000000;
   font-size: 20px;
   font-family: 'Orbitron', sans-serif;
-  padding: 20px;
+  padding: 30px;
   border-radius: 20px;
   box-shadow: 5px 5px rgba(0, 176, 255, 0.25);
   margin-right: 15px;
