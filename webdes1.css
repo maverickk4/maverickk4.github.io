@@ -1,6 +1,7 @@
 body {
   background: #000000 url(pexels.jpg) center/cover no-repeat;
   background-size: cover;
+  background-position: fixed;
   animation: backgroundMove 1.5s ease-in-out forwards;
   background-color: rgba(0, 0, 0, 0.50);
   }
@@ -132,7 +133,7 @@ footer {
   padding: 20px;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
