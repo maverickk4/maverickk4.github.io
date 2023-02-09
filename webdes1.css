@@ -1,5 +1,5 @@
 body {
-  background: #000000 url(pexels.jpg) center/cover no-repeat;
+  background: #000000 url(pexels.jpg) center/cover repeat;
   background-size: cover;
   background-position: fixed;
   animation: backgroundMove 1.5s ease-in-out forwards;
@@ -62,8 +62,15 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-}
-
+  flex-direction: row;
+  }
+  
+  @media (max-width: 767px) {
+  main {
+  flex-direction: column;
+  }
+  }
+  
 main section {
   transition: all 1s ease;
   color: #000000;
