@@ -70,6 +70,10 @@ main {
   main {
     flex-direction: column;
   }
+  main section {
+    width: auto;
+    flex-direction: column;
+  }
 }
   
 
@@ -94,7 +98,7 @@ section {
   color: #000000;
   font-size: 20px;
   font-family: 'Orbitron', sans-serif;
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px rgba(0, 176, 255, 0.25);
   margin-right: 15px;
@@ -144,7 +148,7 @@ footer {
   padding: 20px;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   }
