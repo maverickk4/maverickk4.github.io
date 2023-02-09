@@ -142,10 +142,10 @@ footer {
   padding: 20px;
   border-radius: 0 0 50px 50px;
   text-align: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
-}
+  }
 
 footer p {
   transform: rotate(-5deg);
