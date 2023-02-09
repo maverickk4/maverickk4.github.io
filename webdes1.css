@@ -63,14 +63,15 @@ main {
   align-items: center;
   padding: 15px;
   flex-direction: row;
-  }
-  
-  @media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
   main {
-  flex-direction: column;
+    flex-direction: column;
   }
-  }
+}
   
+
 main section {
   transition: all 1s ease;
   color: #000000;
