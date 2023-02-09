@@ -100,9 +100,9 @@ section {
   align-items: center;
   background-color: rgba(171, 228, 255, 0.627);
   color: #000000;
-  font-size: 23px;
+  font-size: x-large;
   font-family: 'Orbitron', sans-serif;
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px rgba(0, 176, 255, 0.25);
   margin-right: 15px;
@@ -118,6 +118,8 @@ p {
   font-weight: 540;
   margin-bottom: 5;
   margin-top: 5;
+  padding: 20px;
+  font-size: larger;
 }
 
 h2 {
