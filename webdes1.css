@@ -62,16 +62,19 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  flex-direction: auto;
+  flex-direction: row;
   height: auto;
 }
 
 @media (max-width: 767px) {
   main {
+    width: auto;
+    height: auto;
     flex-direction: column;
   }
   main section {
     width: auto;
+    height: auto;
     flex-direction: column;
   }
 }
@@ -97,7 +100,7 @@ section {
   align-items: center;
   background-color: rgba(171, 228, 255, 0.627);
   color: #000000;
-  font-size: 20px;
+  font-size: 23px;
   font-family: 'Orbitron', sans-serif;
   padding: 30px;
   border-radius: 20px;
