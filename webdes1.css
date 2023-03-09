@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(0, 176, 255, 0.4);
+  background-color: rgba(0, 176, 255, 0.5);
   color: #404040;
   font-size: 36px;
   border-radius: 50px 50px 0 0;
@@ -89,7 +89,7 @@ main section {
 }
 
 main section:hover {
-  background-color: rgba(64, 64, 64, 0.6);
+  background-color: rgba(64, 64, 64, 0.7);
   color: #CCCCCC;
 }
 
@@ -98,7 +98,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(171, 228, 255, 0.627);
+  background-color: rgba(171, 228, 255, 0.7);
   color: #000000;
   font-size: x-large;
   font-family: 'Orbitron', sans-serif;
